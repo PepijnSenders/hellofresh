@@ -1,0 +1,22 @@
+{
+  "name": "pep/hellofresh",
+  "authors": [
+  {
+    "name": "Pepijn Senders",
+    "email": "p.senders92@gmail.com"
+  }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "twig/twig": "*",
+    "symfony/http-foundation": "*",
+    "monolog/monolog": "~1.12"
+  },
+  "autoload": {
+    "classmap": [
+      "app/controllers",
+      "app/models",
+      "lib/Pep"
+    ]
+  }
+}
